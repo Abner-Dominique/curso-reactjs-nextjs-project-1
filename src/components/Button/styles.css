@@ -1,0 +1,29 @@
+.button{
+  width: 100%;
+  background: darkblue;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.button:disabled{
+  background: #888;
+  cursor: not-allowed;
+}
+
+/* button {
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  transition: transform 100ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: fuchsia;
+  transform: scale(1.05);
+} */
